@@ -1,10 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600&display=swap');
 h1 {
     font-size: 50px;
-    color: aqua;
+    color: rgb(212, 171, 171);
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
 }
 
 h2 {
     font-size: 35px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h3 {
@@ -12,8 +21,24 @@ h3 {
 }
 p {
     font-size: 22px;
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    font-style: normal;
 }
 
 img {
     width: 200px;
+}
+
+li {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu {
+    display: flex; 
+    justify-content: center; 
+    gap: 15px;
+
 }
